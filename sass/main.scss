@@ -1,0 +1,46 @@
+@use 'variaveis';
+
+main{
+    width: 100%;
+    max-width: 1204px;
+    margin: 0;
+
+    h2{
+        font-size: 40px;
+        max-width: 582px;
+    }
+    
+    .estado{
+        .tag{
+            font-size: 16px;
+            background-color: variaveis.$secundary-color;
+            color:variaveis.$secundary-color;
+            padding: 8px;
+            border-radius: 8px;
+        }
+    }
+    .cards{
+        display: flex;
+        gap: 36px;
+
+        .card{
+            width: 100%;
+            max-width: 274px;
+            border-radius: 8px;
+            border:1px solid variareis.$border ;
+        }
+        figure{
+            padding: 0px;
+            margin: 0px;
+        }
+    }
+    &-descrption{
+        padding: 24px;
+        h3{
+            font-weight: 500;
+            color
+
+        }
+
+    }
+}
